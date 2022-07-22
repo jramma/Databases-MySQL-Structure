@@ -65,6 +65,11 @@ CREATE TABLE IF NOT EXISTS `mydb`.`gafa` (
     REFERENCES `mydb`.`proveedor` (`nif`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION);
+ 
+ -- para hacer la id que incremente:
+ALTER TABLE cliente MODIFY COLUMN id int auto_increment;
+ALTER TABLE gafa MODIFY COLUMN id int auto_increment;
+ALTER TABLE proveedor MODIFY COLUMN id int auto_increment;
 
 
 SET SQL_MODE=@OLD_SQL_MODE;
