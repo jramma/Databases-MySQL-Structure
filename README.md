@@ -4,7 +4,8 @@
 -Relacion : un proveedor puede proveer más de una 
 marca pero solo puede haber un proveedor por marca>> 
 
-![n1e1](https://user-images.githubusercontent.com/107991714/180503925-aa5f714a-15ff-4e52-a759-446bd6554656.png)
+![n1ejercicio1](https://user-images.githubusercontent.com/107991714/180617559-efbbd3e3-e2e4-4663-b14b-f8b3f44a6d27.png)
+
 
 En el workbench:
 select p.id, p.nombre , g.marca from  proveedor p  left join gafa g on p.nif = g.proveidorDeMarca;
