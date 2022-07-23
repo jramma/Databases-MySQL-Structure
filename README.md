@@ -17,3 +17,7 @@ para que muestre marcas y proveedores que hay.
 >> n2ejercicio1YouTube
 
 ![n2ejercicio1](https://user-images.githubusercontent.com/107991714/180605061-f452d35f-b1ea-4e5e-bc6e-7193d8ddd135.png)
+
+>> n3ejercicio1Spotify
+
+![Spotify](https://user-images.githubusercontent.com/107991714/180609424-0f817247-365b-471e-b2da-2e8982846880.png)
