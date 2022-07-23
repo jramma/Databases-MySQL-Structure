@@ -89,7 +89,7 @@ CREATE TABLE IF NOT EXISTS `Optica`.`proveedor` (
   PRIMARY KEY (`id`),
   UNIQUE INDEX `nif_UNIQUE` (`nif` ASC) VISIBLE,
   INDEX `direccion_id_idx` (`direccion_id` ASC) VISIBLE,
-  CONSTRAINT `direccion_id`
+  CONSTRAINT `direccion_id1`
     FOREIGN KEY (`direccion_id`)
     REFERENCES `Optica`.`direccion` (`id`)
     ON DELETE NO ACTION
@@ -139,7 +139,7 @@ CREATE TABLE IF NOT EXISTS `Optica`.`compra/factura` (
   `id` INT NOT NULL AUTO_INCREMENT,
   `gafa_id` INT NOT NULL,
   `cliente_id` INT NOT NULL,
-  `fecha` TIMESTAMP NOT NULL DEFAULT 'CURRENT_TIMESTAMP',
+  `fecha` TIMESTAMP NOT NULL,
   `empleado_que_atendio` INT NOT NULL,
   PRIMARY KEY (`id`),
   INDEX `empleado_que_atendio_idx` (`empleado_que_atendio` ASC) VISIBLE,
@@ -164,5 +164,7 @@ CREATE TABLE IF NOT EXISTS `Optica`.`compra/factura` (
 SET SQL_MODE=@OLD_SQL_MODE;
 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
+
+
 
 
