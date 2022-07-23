@@ -18,13 +18,12 @@ SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,N
 -- -----------------------------------------------------
 -- Schema mydb
 -- -----------------------------------------------------
-CREATE SCHEMA IF NOT EXISTS `mydb` DEFAULT CHARACTER SET utf8 ;
-USE `mydb` ;
+
 
 -- -----------------------------------------------------
 -- Table `mydb`.`cliente`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `mydb`.`cliente` (
+CREATE TABLE IF NOT EXISTS `cliente` (
   `id` INT NOT NULL,
   `nombre` VARCHAR(16) NOT NULL,
   `direccion` VARCHAR(255) NULL,
@@ -40,7 +39,7 @@ CREATE TABLE IF NOT EXISTS `mydb`.`cliente` (
 -- -----------------------------------------------------
 -- Table `mydb`.`proveedor`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `mydb`.`proveedor` (
+CREATE TABLE IF NOT EXISTS `proveedor` (
   `id` INT NOT NULL,
   `name` VARCHAR(255) NOT NULL,
   `direccion` VARCHAR(254) NULL,
@@ -54,7 +53,7 @@ CREATE TABLE IF NOT EXISTS `mydb`.`proveedor` (
 -- -----------------------------------------------------
 -- Table `mydb`.`gafa`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `mydb`.`gafa` (
+CREATE TABLE IF NOT EXISTS `gafa` (
   `id` INT NOT NULL,
   `marca` VARCHAR(255) NOT NULL,
   `graduacion` INT NULL,
