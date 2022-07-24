@@ -4,20 +4,18 @@
 -Relacion : un proveedor puede proveer más de una 
 marca pero solo puede haber un proveedor por marca>> 
 
-![n1e1](https://user-images.githubusercontent.com/107991714/180620610-359b32df-77e8-4585-99bb-e0cdef3dca84.png)
+![n1ejercicio1](https://user-images.githubusercontent.com/107991714/180660813-47c781b8-000c-4b98-b492-133b97e8a84f.png)
 
-
-En el workbench:
-select p.id, p.nombre , g.marca from  proveedor p  left join gafa g on p.nif = g.proveidorDeMarca;
-para que muestre marcas y proveedores que hay.
 
 >> n1ejercicio2
 
 ![n1ejer2](https://user-images.githubusercontent.com/107991714/180602746-c0c7a4d9-4144-4734-b3fc-ddda4041be3a.png)
 
+
 >> n2ejercicio1YouTube
 
 ![n2ejercicio1](https://user-images.githubusercontent.com/107991714/180605061-f452d35f-b1ea-4e5e-bc6e-7193d8ddd135.png)
+
 
 >> n3ejercicio1Spotify
 
