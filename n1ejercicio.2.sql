@@ -277,3 +277,35 @@ SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
 
 -- -----------------------------------------------------------------------------------------------
 -- PRUEBAS PARA COMPROBAR QUE FUNCIONA>
+
+INSERT INTO provincia (name) values 
+('Albacete'),
+('Cuenca'),
+('Lazio'),
+('Lleida');
+
+INSERT INTO localidad (provincia_id, localidadNom) values 
+(1,'Pego'),
+(2,'Alcala'),
+(3,'Casalbertone'),
+(4,'Osona');
+
+INSERT INTO tipo_producto (name) values ('PIAZZAS'),('HAMBURGUESAS'),('BEBIDAS');
+
+INSERT INTO tienda (nombre, direccion, `codigo postal`, localidad_id1, provincia_id2) 
+values 
+('pizas pizzas','c/anares 23',' 09092',1,1),
+('gioconda','c/palatros 222',' 04442',2,2),
+('antonio pizzas','c/mateo 43',' 0456562',3,3),
+('aha','c/pizzas 3',' 09595',4,4);
+
+INSERT INTO empleado (name, nif, telefono, repartidor_id, id_tienda) values
+('manolo', '222222222r',666888222,1,1),
+('luis','111111e',66622655,2,2);
+
+-- SI NO TIENE ID DE REPARTIDOR ES UN COCINERO:
+
+INSERT INTO empleado (name, nif, telefono, id_tienda) values
+('Felipe', '000000000w',666000000,1),
+('MArta','5555555555r',666000000,2);
+
