@@ -9,7 +9,7 @@ marca pero solo puede haber un proveedor por marca>>
 
 >> n1ejercicio2
 
-![n1ejercicio2](https://user-images.githubusercontent.com/107991714/180797151-9c4d0e72-bb74-401e-8d02-444ac036b7ae.png)
+![n1ejercicio2](https://user-images.githubusercontent.com/107991714/180805508-1d68609a-957e-4f59-9ba5-6d0f0e857a52.png)
 
 
 >> n2ejercicio1YouTube
