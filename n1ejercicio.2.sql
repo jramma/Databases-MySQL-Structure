@@ -320,6 +320,8 @@ INSERT INTO empleado (name, nif, telefono, id_tienda) values
 ('Felipe', '000000000w',666000000,1),
 ('MArta','5555555555r',666000000,2);
 
-
-
-
+-- para ver los produtcos tipos bebidas
+SELECT p.id, p.tipo_id, t.id from producto p left join tipo_producto t on p.tipo_id = 3;
+-- para ver las bebidas vendidas:
+SELECT o.comanda_id , o.producto_category_id, p.tipo_id from order_detail o left join producto p on p.tipo_id =o.producto_category_id;
+-- listar comandas efectuadas por un empleado:
