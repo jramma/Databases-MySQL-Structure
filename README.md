@@ -1,5 +1,5 @@
 # mysql-estructura
->> n1ejercicio1
+> n1ejercicio1
 
 -Relacion : un proveedor puede proveer más de una 
 marca pero solo puede haber un proveedor por marca>> 
@@ -7,9 +7,9 @@ marca pero solo puede haber un proveedor por marca>>
 ![n1ejercicio1](https://user-images.githubusercontent.com/107991714/184092043-82ccf577-2491-4973-ab1a-911542370fe8.png)
 
 
->> n1ejercicio2
+> n1ejercicio2
 
-![n1ejercicio2](https://user-images.githubusercontent.com/107991714/180805508-1d68609a-957e-4f59-9ba5-6d0f0e857a52.png)
+![n1ejercicio2](https://user-images.githubusercontent.com/107991714/184095898-dcee748d-2dca-4621-b51f-766c21b288ad.png)
 
 
 >> n2ejercicio1YouTube
