@@ -4,7 +4,7 @@
 -Relacion : un proveedor puede proveer más de una 
 marca pero solo puede haber un proveedor por marca>> 
 
-![n1ejercicio1](https://user-images.githubusercontent.com/107991714/180660813-47c781b8-000c-4b98-b492-133b97e8a84f.png)
+![n1ejercicio1](https://user-images.githubusercontent.com/107991714/184092043-82ccf577-2491-4973-ab1a-911542370fe8.png)
 
 
 >> n1ejercicio2
